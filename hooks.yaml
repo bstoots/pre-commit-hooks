@@ -1,0 +1,6 @@
+- id: always-fail
+  name: Always Fails
+  description: This hook always fails, used for testing.
+  entry: always-fail
+  language: python
+  files: ^$
