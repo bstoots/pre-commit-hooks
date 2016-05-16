@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
 
-    # packages=find_packages('.', exclude=('tests*', 'testing*')),
+    packages=find_packages('.', exclude=('tests*', 'testing*')),
     install_requires=[
         # nothing that I'm aware of
     ],
