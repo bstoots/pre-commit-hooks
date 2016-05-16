@@ -3,4 +3,4 @@
   description: This hook always fails, used for testing.
   entry: always-fail
   language: python
-  files: ^$
+  files: *
