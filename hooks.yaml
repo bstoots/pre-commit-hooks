@@ -1,0 +1,12 @@
+- id: always-fail
+  name: Always Fails
+  description: This hook always fails, used for testing.
+  entry: always-fail
+  language: python
+  files: ''
+- id: composer-modified
+  name: Composer Modified
+  description: Prevents changes to composer.json and composer.lock files.
+  entry: composer-modified
+  language: python
+  files: (composer\.json|composer\.lock)
